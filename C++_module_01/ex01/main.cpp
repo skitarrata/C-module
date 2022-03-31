@@ -6,7 +6,7 @@ int main(void)
 {
 	int n = 10;
 	Zombie *zom;
-	zom = zombieHorde(n, "me");
+	zom = zombieHorde(n, "saverio");
 	if (!zom)
 		exit (0);
 	for (int i = 0; i < n; i++)

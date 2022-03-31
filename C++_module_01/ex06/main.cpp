@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		case 2:
 			std::cout << "[ WARNING ]" << std::endl;
 			k.complain("WARNING");
-		case 4:
+		case 3:
 			std::cout << "[ ERROR ]" << std::endl;
 			k.complain("ERROR");
 			break;
