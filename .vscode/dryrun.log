@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/svalenti/Scrivania/C-module'
+make: Leaving directory '/home/svalenti/Scrivania/C-module'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
