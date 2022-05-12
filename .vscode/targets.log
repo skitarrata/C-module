@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 10 17:26:21 2022
+# Make data base, printed on Thu May 12 17:51:34 2022
 
 # Variables
 
@@ -27,7 +25,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7694d105-ce33-4803-9df4-9df0552e2292.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b6612750-881b-4616-8a33-3feeec4a68c2.sock
 # environment
 VSCODE_CWD = /home/svalenti/Scrivania
 # default
@@ -39,7 +37,7 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/95/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -57,17 +55,17 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/svalenti/.config/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+VSCODE_CODE_CACHE_PATH = /home/svalenti/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.8WDPL1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.WMKRL1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.97
+GNOME_TERMINAL_SERVICE = :1.98
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -103,13 +101,13 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 3083
+VSCODE_PID = 3063
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/svalentiVM:@/tmp/.ICE-unix/1488,unix/svalentiVM:/tmp/.ICE-unix/1488
+SESSION_MANAGER = local/svalentiVM:@/tmp/.ICE-unix/1491,unix/svalentiVM:/tmp/.ICE-unix/1491
 # automatic
 *F = $(notdir $*)
 # environment
@@ -119,7 +117,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"it","availableLanguages":{"*":"it"},"_languagePackId":"c234bf5fe3bd6e3edd34e34d60082d11.it","_translationsConfigFile":"/home/svalenti/.config/Code/clp/c234bf5fe3bd6e3edd34e34d60082d11.it/tcf.json","_cacheRoot":"/home/svalenti/.config/Code/clp/c234bf5fe3bd6e3edd34e34d60082d11.it","_resolvedLanguagePackCoreLocation":"/home/svalenti/.config/Code/clp/c234bf5fe3bd6e3edd34e34d60082d11.it/57fd6d0195bb9b9d1b49f6da5db789060795de47","_corruptedFile":"/home/svalenti/.config/Code/clp/c234bf5fe3bd6e3edd34e34d60082d11.it/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"it","availableLanguages":{"*":"it"},"_languagePackId":"edd95fe2637dfb670c0c498374f66f34.it","_translationsConfigFile":"/home/svalenti/.config/Code/clp/edd95fe2637dfb670c0c498374f66f34.it/tcf.json","_cacheRoot":"/home/svalenti/.config/Code/clp/edd95fe2637dfb670c0c498374f66f34.it","_resolvedLanguagePackCoreLocation":"/home/svalenti/.config/Code/clp/edd95fe2637dfb670c0c498374f66f34.it/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/home/svalenti/.config/Code/clp/edd95fe2637dfb670c0c498374f66f34.it/corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -135,7 +133,7 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/7ccb5431_c408_4032_9233_349ed85b126a
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9ae3bc7c_420b_415f_9fbf_f13c6e6b4ef8
 # environment
 MAKELEVEL := 0
 # default
@@ -151,9 +149,9 @@ MAKEFILES :=
 # environment
 SNAP_USER_COMMON = /home/svalenti/snap/code/common
 # environment
-SNAP = /snap/code/95
+SNAP = /snap/code/96
 # environment
-SNAP_REVISION = 95
+SNAP_REVISION = 96
 # environment
 SNAP_REAL_HOME = /home/svalenti
 # environment
@@ -185,7 +183,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1515
+SYSTEMD_EXEC_PID = 1521
 # environment
 DISPLAY = :0
 # environment
@@ -197,7 +195,7 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/95
+SNAP_DATA = /var/snap/code/96
 # environment
 SNAP_CONTEXT = YNX-E9mtt05rE35ZeYKZnzVP1A4Y5Jm8K2mGrc8Pr2ZxI3j1CUnM
 # environment
@@ -217,13 +215,13 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-a4e4ca35-1.67.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a4e4ca35-1.67.1-main.sock
 # environment
 TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/95/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
 # environment
 IM_CONFIG_PHASE = 1
 # default
@@ -231,7 +229,7 @@ IM_CONFIG_PHASE = 1
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = 57fd6d01
+SNAP_VERSION = da15b6fd
 # default
 SUFFIXES := 
 # environment
@@ -245,7 +243,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/svalenti/snap/code/95
+SNAP_USER_DATA = /home/svalenti/snap/code/96
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -261,12 +259,11 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2051, inode 2896487): 12 files, no impossibilities.
+# . (device 2051, inode 2896487): 14 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
- 
 
 # No implicit rules.
 
@@ -280,6 +277,9 @@ Makefile:
 #  Failed to be updated.
 
 # Not a target:
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -314,12 +314,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 211 B / avg = 10 B
-# current buf: size = 8162 B / used = 211 B / count = 20 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 239 B / avg = 10 B
+# current buf: size = 8162 B / used = 239 B / count = 22 / avg = 10 B
 
-# strcache performance: lookups = 23 / hit rate = 13%
+# strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Tue May 10 17:26:21 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/25=0%
+# Finished Make data base on Thu May 12 17:51:34 2022
 
  
