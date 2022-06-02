@@ -7,11 +7,11 @@
 # include <cstdlib>
 
 template<typename T>
-class				Array
+class							Array
 {
 	private:
-		unsigned int	dim;
-		T*				arr;
+		unsigned int			dim;
+		T*						arr;
 	public:
 		Array() : dim(0), arr(new T[0]) { };
 		Array(unsigned int n) : dim(n), arr(new T[n]) { };
