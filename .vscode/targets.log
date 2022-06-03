@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 12 17:51:34 2022
+# Make data base, printed on Fri Jun  3 11:26:13 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b6612750-881b-4616-8a33-3feeec4a68c2.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1ab78816-433a-46bf-b2a2-9434f2d74b67.sock
 # environment
 VSCODE_CWD = /home/svalenti/Scrivania
 # default
@@ -59,13 +59,13 @@ VSCODE_CODE_CACHE_PATH = /home/svalenti/.config/Code/CachedData/da15b6fd3ef85647
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.WMKRL1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.3QEYM1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.98
+GNOME_TERMINAL_SERVICE = :1.96
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -101,13 +101,13 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 3063
+VSCODE_PID = 2580
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/svalentiVM:@/tmp/.ICE-unix/1491,unix/svalentiVM:/tmp/.ICE-unix/1491
+SESSION_MANAGER = local/svalentiVM:@/tmp/.ICE-unix/1492,unix/svalentiVM:/tmp/.ICE-unix/1492
 # automatic
 *F = $(notdir $*)
 # environment
@@ -133,7 +133,7 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9ae3bc7c_420b_415f_9fbf_f13c6e6b4ef8
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f8a98b74_e925_4f9c_82f0_3e692beb4641
 # environment
 MAKELEVEL := 0
 # default
@@ -183,7 +183,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1521
+SYSTEMD_EXEC_PID = 1512
 # environment
 DISPLAY = :0
 # environment
@@ -276,10 +276,10 @@ Makefile:
 #  File has been updated.
 #  Failed to be updated.
 
-# Not a target:
  
 make: *** No rule to make target 'all'.  Stop.
 
+# Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -320,6 +320,6 @@ GNUmakefile:
 # strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Thu May 12 17:51:34 2022
+# Finished Make data base on Fri Jun  3 11:26:13 2022
 
  
