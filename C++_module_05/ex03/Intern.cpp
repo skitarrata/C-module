@@ -20,15 +20,33 @@ Form*					Intern::makeForm(const std::string &formName, const std::string &formT
 		std::cout << "Form not found" << std::endl;
 		return (NULL);
 	}
-	std::string funcPool[] = {std::string("shrubbery creation"), std::string("robotomy request"),
-							  std::string("presidential pardon")};
-	Form* actionsPool[] = {new ShrubberyCreationForm(formTarget), new RobotomyRequestForm(formTarget),
-						   new PresidentialPardonForm(formTarget)};
-	for (int i = 0; i < 3; ++i)
-		if (formName == funcPool[i])
-		{
-			std::cout << "Intern creates " << formName << std::endl;
-			return actionsPool[i];
-		}
-	return NULL;
+	enum forms {SHRUBERRY, ROBOTOMY, PRESIDENTIAL};
+	std::string		_formName[] = {std::string("shrubbery creation"), std::string("robotomy request"), std::string("presidential pardon")};
+	Form*	resultForm = nullptr;
+	int		i = 0;
+
+	while (i < 3)
+	{
+		if (formName  == _formName[i])
+			break ;
+		i++;
+	}
+
+	switch (i)
+	{
+		case SHRUBERRY:
+			resultForm = new ShrubberyCreationForm(formTarget);
+			break;
+		case ROBOTOMY:
+			resultForm = new RobotomyRequestForm(formTarget);
+			break;
+		case PRESIDENTIAL:
+			resultForm = new PresidentialPardonForm(formTarget);
+			break;
+		default:
+			break;
+	}
+	if (resultForm != nullptr)
+		std::cout << "Intern creates " << formName << std::endl;
+	return resultForm;
 }
